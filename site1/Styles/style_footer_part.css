@@ -1,0 +1,72 @@
+.footerPartContent {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    background: #112D57;
+    justify-content: center;
+    align-items: center;
+    padding: 62px 0px;
+}
+
+.footerPartBlockcontent {
+    display: flex;
+    width: 70%;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid white;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.footerList {
+    display: flex;
+    width: 317px;
+    height: 215px;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    padding: 0px;
+    gap: 56px;
+    border: 1px solid white;
+}
+
+.mapPosition {
+    max-width: 100%;
+    height: 247px;
+    background: url("images/map.png");
+    border-radius: 22px;
+    border: 0;
+}
+
+.footerMenu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.contentMenuFooterLink {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+
+    letter-spacing: 0.2px;
+    color: white;
+}
+/* ================================================ media queries of main part Footer ================================================ */
+
+@media (max-width: 1070px) {
+    .footerPartBlockcontent {
+        width: 100%;
+        flex-direction: column;
+    }
+    .footerList {
+        width: 100%;
+    }
+    .mapPosition {
+        height: auto;
+        width: 100%;
+    }
+}
