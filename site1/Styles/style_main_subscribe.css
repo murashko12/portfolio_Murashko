@@ -82,6 +82,7 @@
     font-size: 16px;
     line-height: 16px;
     letter-spacing: 0.2px;
+    cursor: pointer;
 }
 
 /* ================================================ media queries of main part Subscribe ================================================ */

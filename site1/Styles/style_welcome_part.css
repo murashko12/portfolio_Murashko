@@ -1,14 +1,17 @@
 * { padding: 0; margin: 0;}
 
+
 body {
     font-family: 'Poppins';
 }
 
+a {
+    text-decoration: none;
+}
+
 .welcomePart {
     display: block;
-    /* width: 100vw; */
     background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
-    
 }
 
 .contentHeader {
@@ -17,18 +20,12 @@ body {
     margin: auto;
     padding: 36px 10%;
     align-items: center; 
-    /* border: 1px solid black; */
 }
 
 .headerLogo {
-    /* display: block; */
     max-width: 100%;
     height: auto;
-    /* max-width: 100%;
-    height: auto;     */
-    /* background-image: url(../Images/Logo.png); */
     margin-left: 5%;
-
 }
 
 .headerNavigation {
@@ -67,18 +64,13 @@ body {
 }
 
 .contentMenuButton {
-    /* max-width: 100%; */
-
-    /* right: 39px;  */
     height: 50px;
     width: 100px;
     border: 1px solid white;
     color: white;
     border-radius: 40px;
-    /* margin-right: 70px; */
     background: none;
     cursor: pointer; 
-    /* gap: 100px; */
 }
 
 .imgLogo {
@@ -91,9 +83,7 @@ body {
     width: 52%;
     height: auto;
     margin: auto;
-    /* margin-top: 100px; */
     margin-top: 128px;
-    /* border: 1px solid black; */
     justify-content: center;
 }
 
@@ -102,8 +92,6 @@ body {
     height: auto;
     margin: auto;
     margin-top: 128px;
-    /* border: 1px solid black; */
-
     margin: 0;
     font-weight: 700;
     line-height: 70px;
@@ -122,9 +110,6 @@ body {
     font-style: normal;
     letter-spacing: 0.2px;
     color: #E5E5E5;
-
-
-    /* border: 1px solid black; */
 }
 
 .blockButton {
